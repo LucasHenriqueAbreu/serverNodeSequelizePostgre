@@ -1,10 +1,15 @@
+/**
+ * Módulo de validação dos parametros das rotas, aqui devem ser criatos as validações 
+ * de acordo com os parâmetros que devemos receber.
+ */
+
 import Joi from 'joi';
 
 export default {
     // POST /api/users
     createUser: {
         body: {
-            username: Joi.string().required(),
+            username: Joi.string().required()
         },
     },
 

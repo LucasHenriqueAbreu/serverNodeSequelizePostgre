@@ -4,7 +4,7 @@ import app from './config/express';
 /* eslint-disable no-unused-vars */
 import db from './config/sequelize';
 
-const debug = require('debug')('express-postgresql-sequelize-es6-rest-api:index');
+const debug = require('debug')('pesquisa-service:index');
 /* eslint-enable no-unused-vars */
 
 // make bluebird default Promise

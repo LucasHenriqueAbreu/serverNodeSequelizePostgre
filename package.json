@@ -1,8 +1,8 @@
 {
-    "name": "express-postgresql-sequelize-es6-rest-api",
+    "name": "pesquisa-service",
     "version": "0.0.1",
-    "description": "A Boilerplate application for building REST APIs using express, sequelize in ES6 with code coverage",
-    "author": "Gaurav Porwal <gauravprwl14@gmail.com>",
+    "description": "MicroService para acesso apenas as operações do app de pesquisa.",
+    "author": "Lucas Henrique de Abreu <lucasigual14@gmail.com>",
     "main": "index.js",
     "private": false,
     "engines": {
@@ -12,7 +12,7 @@
     },
     "scripts": {
         "start": "gulp serve",
-        "start:debug": "cross-env DEBUG=express-postgresql-sequelize-es6-rest-api:* yarn start",
+        "start:debug": "cross-env DEBUG=pesquisa-service:* yarn start",
         "build": "gulp",
         "lint": "esw *.js server config --color",
         "lint:watch": "yarn lint -- --watch",
@@ -22,7 +22,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:gauravprwl14/node-express-postgres-sequelize-es6-rest-api.git"
+        "url": ""
     },
     "keywords": [
         "express",
@@ -52,7 +52,7 @@
         "express-jwt": "5.1.0",
         "express-validation": "1.0.2",
         "express-winston": "2.5.1",
-        "gulp": "3.9.1",
+        "gulp": "^3.9.1",
         "gulp-load-plugins": "1.5.0",
         "helmet": "3.1.0",
         "http-status": "1.0.1",
@@ -61,7 +61,7 @@
         "lodash": "4.17.5",
         "method-override": "2.3.10",
         "morgan": "1.9.0",
-        "nodemailer": "false4.6.4",
+        "nodemailer": "4.6.4",
         "pg": "6.1.5",
         "pg-hstore": "2.3.2",
         "run-sequence": "2.2.1",
